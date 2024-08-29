@@ -10,9 +10,7 @@ export const Home = () => {
         <div className="left">
           <h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            sunt, eius repudiandae, corrupti illum facere nisi temporibus ab a
-            aliquid reprehenderit hic? Fugit vel sit perferendis rerum quo
-            assumenda porro.
+            sunt, eius repudiandae, 
           </h1>
           <a
             href={pdf}

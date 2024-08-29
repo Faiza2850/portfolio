@@ -1,3 +1,8 @@
+:root{
+  --box-shadow: 5px 5px 10px 0 px rgba(101, 175, 10, 10.5);
+  --bg-color: rgb(40, 47, 97);
+}
+
 body{
   background-color: rgb(11, 26,51);
   color: white;
@@ -31,21 +36,60 @@ a{
 
 }
 .home .left{
-  background-color: black;
-  width:600px;
+  background-color: var(--bg-color);
+  width:620px;
+  text-align:center ;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
 }
 
 .home .right .img{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
+  /* background-color: yellow;
   height: 300px;
-  width: 300px;
+  width: 300px; */
 }
 
 .home .right .img img{
-  height: 300px;
-  width: 300px;
+  height: 270px;
+  width: 270px;
+  border: 5px solid yellow;
   border-radius: 100%;
+  animation-name: superman;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes superman {
+  0%{
+    border-color: rgb(17, 17, 61);
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px rgb(17, 17, 61);
+
+  }
+  25%{
+    border-color: rgb(185, 194, 30);
+    box-shadow: 10px 10px 100px 50px rgb(185, 194, 30);
+
+  }
+  50%{
+    border-color: rgb(12, 12, 199);
+    transform: translate(0, 10px);
+    box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+
+  }
+  75%{
+    border-color: rgb(130, 217, 160);
+    box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+  }
+  100%{
+    border-color: rgb(50, 55, 205);
+    transform: translate(0, -0px);
+    box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+
+  }
+  
 }
