@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Skills Section
+.skills{
+  width: 900px;
+}
+.skills .items{
+  display: ruby;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.skills .items .item{
+  width:calc(33.3) ;
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+.skills .items .item img{
+  width: 70px;
+} */
