@@ -23,3 +23,29 @@ a{
   border-bottom:3px solid yellow  ;
 }
 /* Home Section */
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+
+}
+.home .left{
+  background-color: black;
+  width:600px;
+}
+
+.home .right .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+}
+
+.home .right .img img{
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+}
